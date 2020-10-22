@@ -1,95 +1,127 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width-device-width, initial-scale=1">
-    <link rel="stylesheet" href="style/style.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style/style.css" />
     <title>Tierpark Entenhausen - Kontakt</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Tierpark Entenhausen - Schauen Sie doch mal rein!</h1>
+      <h1>Tierpark Entenhausen - Schauen Sie doch mal rein!</h1>
     </header>
     <nav>
-        <ul>
-            <li><a href=index.html>Home</a></li>
-            <li><a href=infos.html>Infos</a></li>
-            <li><a href=kontakt.html>Kontakt</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="infos.html">Infos</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
     </nav>
     <main>
-        <article>
-            <h3>Liebe Besucherin, lieber Besucher!</h3>
-            <p>
-                Wir sind stets bemüht, uns zu verbessern und zu optimieren. Das geht aber nur, wenn wir Rückmeldungen von unseren Gästen bekommen!<br>
-                Aus diesem Grund ersuchen wir Sie, sich kurz Zeit zu nehmen und nachfolgendes Formular auszufüllen!<br>
-                Konstruktives Feedback ist uns sehr wichtig.
-            </p>
-        </article>
-        <form method="POST" action="" id="kontaktformular">
-            <div class="formular">
-                <label for="name">Name: </label>
-                <input type="text" name="name" id="name" placeholder="Name eingeben">
-            </div>
-            <div class="formular"p>
-                <label for="email">E-Mail: </label>
-                <input type="email" name="email" id="email" placeholder="E-Mail Adresse eingeben">
-            </div>
-            <div class="formular">
-                <label for="besuchstag">Besuchstag: </label>
-                <input type="date" name="besuchstag" id="besuchstag">
-            </div>
-            <div class="formular">
-                <label for="besuchszeit">Besuchszeit: </label>
-                <input type="time" name="besuchszeit id="besuchszeit">
-            </div>
-            <div class="formular">
-                <label for="gefallen">Es hat mir gefallen: </label>
-                <input type="range" name="gefallen" id="gefallen">
-            </div>
-            <div class="formular">
-                <label for="empfehlen">Ich werde den Tierpark weiterempfehlen: </label>
-                <div class ="inputRadio">
-                    <input type="radio" name="empfehlen_ja">Ja<br>
-                    <input type="radio" name="empfehlen_nein">Nein
-                </div>
-            </div>
-            <div class="formular">
-                <label for="am_besten">Am besten fand ich: </label>
-                <input type="text" list="am_besten_liste" name="am_besten" id="am_besten" placeholder="Schreiben Sie nach Belieben ...">
-                <datalist id="am_besten_liste">
-                    <option value="Säugetiere">
-                    <option value="Insekten">
-                    <option value="Fische">
-                    <option value="Vögel">  
-                </datalist>
-            </div>
-            <div class="formular">
-                <label for="kommentar">Was ich noch sagen möchte: </label>
-                <textarea name="kommentar" id="kommentar" rows="8" cols="80" placeholder="Möchten Sie uns noch etwas mitteilen ... ?"></textarea>
-            </div>
-            <div class="formular">
-                <label for="besucherinfo">Besucherinfo: </label>
-                <select name="besucherinfo" id="besucherinfo">
-                    <option value="1">Familienausflug</option>
-                    <option value="2">Allein unterwegs</option>
-                    <option value="3">Gruppenausflug</option>
-                    <option value="4">Ausflug mit Freunden</option>
-                    <option value="5">Was anderes</option>
-                </select>
-            </div>
-            <div class="form_buttons">
-                <button type="reset">Zurücksetzen</button>
-                <button type="submit">Absenden</button>
-            </div>
-        </form>
-        <article>
-            <p>
-                Wir bedanken uns herzlich für Ihre Rückmeldung und hoffen, Sie bald wieder bei uns begrüßen zu dürfen!
-            </p>
-        </article>
+      <article>
+        <h3>Liebe Besucherin, lieber Besucher!</h3>
+        <p>
+          Wir sind stets bemüht, uns zu verbessern und zu optimieren. Das geht
+          aber nur, wenn wir Rückmeldungen von unseren Gästen bekommen!<br />
+          Aus diesem Grund ersuchen wir Sie, sich kurz Zeit zu nehmen und
+          nachfolgendes Formular auszufüllen!<br />
+        </p>
+        <p style="font-style: italic">
+          Konstruktives Feedback ist uns sehr wichtig.
+        </p>
+      </article>
+      <form method="POST" action="" id="kontaktformular">
+        <div class="formular">
+          <label for="name">Name: </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name eingeben"
+          />
+        </div>
+        <div class="formular" p>
+          <label for="email">E-Mail: </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="E-Mail Adresse eingeben"
+          />
+        </div>
+        <div class="formular">
+          <label for="besuchstag">Besuchstag: </label>
+          <input type="date" name="besuchstag" id="besuchstag" />
+        </div>
+        <div class="formular">
+          <label for="besuchszeit">Besuchszeit: </label>
+          <input type="time" name="besuchszeit id="besuchszeit">
+        </div>
+        <div class="formular">
+          <label for="gefallen">Es hat mir gefallen: </label>
+          <input type="range" name="gefallen" id="gefallen" />
+        </div>
+        <div class="formular">
+          <label for="empfehlen"
+            >Ich werde den Tierpark weiterempfehlen:
+          </label>
+          <div class="inputRadio">
+            <input type="radio" name="empfehlen_ja" />Ja<br />
+            <input type="radio" name="empfehlen_nein" />Nein
+          </div>
+        </div>
+        <div class="formular">
+          <label for="am_besten">Am besten fand ich: </label>
+          <input
+            type="text"
+            list="am_besten_liste"
+            name="am_besten"
+            id="am_besten"
+            placeholder="Schreiben Sie nach Belieben ..."
+          />
+          <datalist id="am_besten_liste">
+            <option value="Säugetiere"></option>
+            <option value="Insekten"></option>
+            <option value="Fische"></option>
+            <option value="Vögel"></option>
+          </datalist>
+        </div>
+        <div class="formular">
+          <label for="kommentar">Was ich noch sagen möchte: </label>
+          <textarea
+            name="kommentar"
+            id="kommentar"
+            rows="8"
+            cols="80"
+            placeholder="Möchten Sie uns noch etwas mitteilen ... ?"
+          ></textarea>
+        </div>
+        <div class="formular">
+          <label for="besucherinfo">Besucherinfo: </label>
+          <select name="besucherinfo" id="besucherinfo">
+            <option value="1">Familienausflug</option>
+            <option value="2">Allein unterwegs</option>
+            <option value="3">Gruppenausflug</option>
+            <option value="4">Ausflug mit Freunden</option>
+            <option value="5">Was anderes</option>
+          </select>
+        </div>
+        <div class="form_buttons">
+          <button type="reset">Zurücksetzen</button>
+          <button type="submit">Absenden</button>
+        </div>
+      </form>
+      <article>
+        <p>
+          Wir bedanken uns herzlich für Ihre Rückmeldung und hoffen, Sie bald
+          wieder bei uns begrüßen zu dürfen!
+        </p>
+      </article>
     </main>
-    <footer><strong>Tierpark Entenhausen</strong>  |  A-3421 Entenhausen, Tierparkstraße 1-12  |  +43 3215 3432 0  |  office@der-tierpark.at</footer>
-</body>
+    <footer>
+      <strong>Tierpark Entenhausen</strong> | A-3421 Entenhausen, Tierparkstraße
+      1-12 | +43 3215 3432 0 | office@der-tierpark.at
+    </footer>
+  </body>
 </html>
